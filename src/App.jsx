@@ -16,7 +16,7 @@ function App() {
         <div className="container mx-auto flex justify-between items-center p-4">
           <div className="flex items-center">
             <img
-              src="/src/assets/logo.svg"
+              src="/logo.svg"
               alt="OmniNova Logo"
               className="h-14 mr-3 hidden md:block"
             />
@@ -24,7 +24,7 @@ function App() {
               OmniNova
             </span>
             <img
-              src="/src/assets/logo.svg"
+              src="/logo.svg"
               alt="OmniNova Logo"
               className="h-8 block md:hidden"
             />
