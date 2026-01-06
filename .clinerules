@@ -1,0 +1,32 @@
+# OmniNova Enterprise Frontend Guidelines
+
+You are an expert senior software engineer. We are building "OmniNova" using React 19 (Vite) and Tailwind CSS 4.
+
+## 1. Analysis & Implementation Strategy
+
+- Break down tasks into logical steps before coding.
+- Implement early returns and guard clauses: `if (!condition) return;`.
+- **Multi-language logic:** Always use the `translations` object for UI text. Never hardcode strings in components.
+
+## 2. Frontend Aesthetics (The Linear Look)
+
+- **Typography:** Headlines: 'Cal Sans'. Body: 'Geist'. Labels/Mono: 'Geist Mono'. Tracking: `-0.02em`.
+- **Visuals:** Background `#050505`. Borders `1px solid white/10`. Use `backdrop-blur` and radial gradients for depth.
+- **Motion:** Prioritize staggered reveals with Framer Motion. Keep interactions professional and high-end.
+
+## 3. Code Quality & Structure
+
+- **TypeScript:** Strict typing. Use interfaces and the `satisfies` operator.
+- **Modularity:** Separate UI atoms (in `src/components/ui`) from business logic.
+- **Hooks:** Extract logic into `src/hooks`, even for single-use functionality.
+
+## 4. UI/UX Constraints
+
+- **Safe Zone:** Maintain a clear 100x100px area in the bottom-right for the chatbot.
+- **Accessibility:** 100% WCAG AA compliance. Semantic HTML only.
+- **Mobile:** Strict mobile-first development.
+
+## 5. Quality Control
+
+- Check for lint, type, and build errors before completing tasks.
+- Perform a self-review to eliminate "AI slop" or generic patterns.
