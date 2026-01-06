@@ -32,7 +32,7 @@ export const translations = {
     {
       id: "enterprise-ai",
       title: {
-        nl: "Enterprise AI Deployment",
+        nl: "Enterprise AI Implementatie",
         en: "Enterprise AI Deployment",
       },
       headline: {
@@ -105,4 +105,87 @@ export const translations = {
       },
     },
   ],
+  pricing: {
+    audit: {
+      title: {
+        nl: "De Audit",
+        en: "The Audit",
+      },
+      price: {
+        nl: "€2.000",
+        en: "€2,000",
+      },
+      highlights: {
+        nl: ["Eenmalig", "Volledige Roadmap", "Directe ROI Analyse"],
+        en: ["One-time", "Full Roadmap", "Direct ROI Analysis"],
+      },
+    },
+    growthEngine: {
+      title: {
+        nl: "Groei Motor",
+        en: "Growth Engine",
+      },
+      price: {
+        nl: "Vanaf €1.500/mnd",
+        en: "From €1,500/month",
+      },
+      highlights: {
+        nl: [
+          "Enterprise AI Implementatie",
+          "Email & Chatbot Support",
+          "Maandelijkse Optimalisatie",
+        ],
+        en: [
+          "Enterprise AI Deployment",
+          "Email & Chatbot Support",
+          "Monthly Optimization",
+        ],
+      },
+      featured: true,
+    },
+    fractionalCTO: {
+      title: {
+        nl: "Fractional CTO",
+        en: "Fractional CTO",
+      },
+      price: {
+        nl: "Op maat",
+        en: "Custom",
+      },
+      highlights: {
+        nl: [
+          "Custom Agent Development",
+          "Wekelijks Strategie Overleg",
+          "Onbeperkt Support",
+        ],
+        en: [
+          "Custom Agent Development",
+          "Weekly Strategy Meeting",
+          "Unlimited Support",
+        ],
+      },
+    },
+    workshopPricing: {
+      title: {
+        nl: "AI Prompting Workshop",
+        en: "AI Prompting Workshop",
+      },
+      price: {
+        nl: "€1.500",
+        en: "€1,500",
+      },
+      highlights: {
+        nl: [
+          "Gepersonaliseerde AI Training",
+          "Hands-on Praktijkworkshops",
+          "Doorlopende Ondersteuning",
+        ],
+        en: [
+          "Personalized AI Training",
+          "Hands-on Practical Workshops",
+          "Continuous Support",
+        ],
+      },
+    },
+  },
 };

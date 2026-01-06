@@ -2,9 +2,9 @@ import React from "react";
 import { ServiceCard } from "./ServiceCard";
 import { translations } from "../../translations";
 
-export const ServicesSection = ({ language }) => {
+export const ServicesSection = ({ language, className = "" }) => {
   return (
-    <section className="container mx-auto px-4 py-16">
+    <section className={`container mx-auto px-4 py-16 ${className}`}>
       <div className="text-center mb-12">
         <h2 className="text-4xl font-calsans font-bold mb-4 text-white">
           {language === "nl" ? "Onze Services" : "Our Services"}

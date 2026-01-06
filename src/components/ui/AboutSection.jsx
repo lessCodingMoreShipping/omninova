@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-export const AboutSection = ({ language }) => {
+export const AboutSection = ({ language, className = "" }) => {
   const translations = {
     headline: {
       nl: "Van Strategie naar Executie.",
@@ -19,7 +19,7 @@ export const AboutSection = ({ language }) => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
-      className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center"
+      className={`container mx-auto px-4 py-16 flex flex-col md:flex-row items-center ${className}`}
     >
       <div className="md:w-1/2 mb-8 md:mb-0 md:pr-12">
         <h2 className="text-4xl font-calsans font-bold mb-6 text-white">

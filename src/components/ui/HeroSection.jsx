@@ -8,7 +8,7 @@ export const HeroSection = ({ language }) => {
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
-      className="container mx-auto px-4 pt-24 text-center"
+      className="container mx-auto px-4 pt-32 pb-24 md:pt-48 md:pb-40 text-center"
     >
       <h1 className="text-5xl font-calsans font-bold mb-6">
         {translations.hero.title[language]}

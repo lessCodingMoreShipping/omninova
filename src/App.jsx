@@ -14,7 +14,21 @@ function App() {
       {/* Navbar */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md">
         <div className="container mx-auto flex justify-between items-center p-4">
-          <div className="text-xl font-calsans font-bold">OmniNova</div>
+          <div className="flex items-center">
+            <img
+              src="/src/assets/logo.svg"
+              alt="OmniNova Logo"
+              className="h-14 mr-3 hidden md:block"
+            />
+            <span className="text-2xl font-calsans font-bold hidden md:block">
+              OmniNova
+            </span>
+            <img
+              src="/src/assets/logo.svg"
+              alt="OmniNova Logo"
+              className="h-8 block md:hidden"
+            />
+          </div>
           <LanguageToggle language={language} toggleLanguage={toggleLanguage} />
         </div>
       </nav>
